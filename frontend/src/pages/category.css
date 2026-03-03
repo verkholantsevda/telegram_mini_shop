@@ -1,0 +1,102 @@
+.body {
+  color: inherit;
+}
+
+.main-content {
+  padding-bottom: 40px;
+}
+
+.category-node {
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+  color: inherit;
+}
+
+.category-node li {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+
+.category-node li .card {
+  margin: 1px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-node__img {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto 0 auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.category-node_img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.category-node_title {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+.category-node_title .card-title {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: calc(1em + 3vw);
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .my-text {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .category-node_title .card-title {
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .category-node_title .card-title {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .category-node_title .card-title {
+    font-size: 1.5vw;
+  }
+}
+@media (min-width: 1201px) and (max-width: 2400px) {
+  .category-node_title .card-title {
+    font-size: 1vw;
+  }
+}

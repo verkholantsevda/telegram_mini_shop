@@ -1,0 +1,8 @@
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control span {
+  margin: 0 10px;
+}

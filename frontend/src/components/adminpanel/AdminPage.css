@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control,
+.form-control-file {
+  border-radius: 4px;
+}
+
+.form-control:focus,
+.form-control-file:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.image-preview img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 10px;
+}
