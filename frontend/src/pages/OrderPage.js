@@ -197,7 +197,7 @@ const OrderPage = observer(() => {
           const { latitude, longitude } = position.coords;
           try {
             const response = await axios.get(
-              `https://geocode-maps.yandex.ru/1.x/?geocode=${longitude},${latitude}&apikey=92ef639b-5a8d-4a4b-aa81-e3437a0cec5e&format=json&results=1`,
+              `https://geocode-maps.yandex.ru/1.x/?geocode=${longitude},${latitude}&apikey=${process.env.REACT_APP_YANDEX_MAPS_API_KEY}&format=json&results=1`,
             );
 
             // Проверяем, что ответ содержит данные и есть хотя бы один объект
